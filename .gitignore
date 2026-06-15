@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Assembler output
+*.obj
+*.exe
+*.lst
+*.map
+*.bak

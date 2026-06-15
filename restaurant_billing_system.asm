@@ -357,7 +357,7 @@ MAIN PROC
     JMP EXIT
              
    FIFTY:
-    MOV BL,4
+    MOV BL,5
     LEA DX,M58              
     MOV AH,9
     INT 21H 
@@ -1544,13 +1544,13 @@ MAIN PROC
     INT 21H 
     
     
-    LEA DX,M56 
+    LEA DX,M56
     MOV AH,9
-    INT 21H 
-    
-    
-    
-    JMP EXIT 
+    INT 21H
+
+
+
+    JMP TOP
     
     
      EXIT:
